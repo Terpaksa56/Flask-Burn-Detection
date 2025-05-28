@@ -1,0 +1,52 @@
+[
+  {
+    "index": 0,
+    "label": "Superficial Dermal Burn",
+    "name": "First-Degree",
+    "instructions": [
+      "Basuh luka dengan air dingin selama minimal 5 menit.",
+      "Bila terasa nyeri, konsumsi ibuprofen atau parasetamol.",
+      "Tutupi luka dengan kasa longgar untuk mencegah infeksi.",
+      "Perhatian: Luka biasanya sembuh dalam 7 hingga 10 hari tanpa bekas luka."
+    ]
+  },
+  {
+    "index": 1,
+    "label": "Fourth Degree Burn",
+    "name": "Forth-Degree",
+    "instructions": [
+      "Hubungi darurat (112/119) atau segera ke rumah sakit. Ini situasi kritis.",
+      "Jangan lepas pakaian yang menempel di luka.",
+      "Jangan beri air, es, salep, atau bahan apapun ke luka.",
+      "Tutupi luka dengan kain bersih, kering, dan tidak menempel.",
+      "Cek kesadaran, napas, dan denyut nadi korban saat menunggu pertolongan.",
+      "Perhatian: Luka ini menyebabkan kerusakan jaringan permanen dan sering kali butuh tindakan serius seperti amputasi."
+    ]
+  },
+  {
+    "index": 2,
+    "label": "Partial Thickness Burn",
+    "name": "Second-Degree",
+    "instructions": [
+      "Jika luka besar atau di area sensitif (wajah, tangan, kaki), segera periksa ke dokter. Mungkin butuh cangkok kulit.",
+      "Bilas luka dengan air dingin selama 15 menit atau lebih.",
+      "Konsumsi ibuprofen atau parasetamol jika nyeri.",
+      "Oleskan salep antibiotik untuk mencegah infeksi.",
+      "Tutupi luka dengan kasa yang longgar.",
+      "Jangan pecahkan lepuhan. Jika pecah, bersihkan kembali dan oleskan salep antibiotik.",
+      "Perhatian: Mayoritas luka sembuh dalam 2 sampai 3 minggu tanpa bekas, meski beberapa bisa lebih lama."
+    ]
+  },
+  {
+    "index": 3,
+    "label": "Full Thickness Burn",
+    "name": "Third-Degree",
+    "instructions": [
+      "Jika tidak terasa sakit, bisa jadi sarafnya rusak.",
+      "Jangan lepaskan pakaian yang menempel di luka.",
+      "Posisikan bagian tubuh yang terbakar lebih tinggi dari jantung.",
+      "Jangan menyentuh luka. Hubungi layanan darurat (112) atau langsung ke rumah sakit.",
+      "Perhatian: Luka ini tidak punya waktu penyembuhan pasti dan akan meninggalkan bekas serta bisa menyebabkan kekakuan permanen."
+    ]
+  }
+]

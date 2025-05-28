@@ -1,0 +1,124 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deteksi Luka Bakar</title>
+<link rel="icon" type="image/x-icon" href="../static/css/logo.png">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../static/css/style.css" />
+  </head>
+
+  <body class="">
+    {% include 'layouts/navbar.html' %}
+
+    <div class="container content-wrapper text-center text-dark">
+      <div class="row stable-layout">
+        <div class="col-md-6">
+          <h2 class="fw-bold">Deteksi Luka Bakar</h2>
+          <ul class="list-group list-group-flush shadow-sm rounded">
+            <li
+              class="list-group-item list-group-item-action d-flex flex-column gap-2"
+            >
+              <button
+                class="btn btn-link p-0 text-start"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#desc1"
+                aria-expanded="false"
+                aria-controls="desc1"
+              >
+                Luka Bakar Derajat 1
+              </button>
+              <div class="collapse" id="desc1">
+                <small class="text-muted">
+                  Luka bakar derajat 1 hanya mengenai lapisan epidermis,
+                  menyebabkan kemerahan dan nyeri tanpa luka terbuka.
+                </small>
+              </div>
+            </li>
+            <li
+              class="list-group-item list-group-item-action d-flex flex-column gap-2"
+            >
+              <button
+                class="btn btn-link p-0 text-start"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#desc2"
+                aria-expanded="false"
+                aria-controls="desc2"
+              >
+                Luka Bakar Derajat 2
+              </button>
+              <div class="collapse" id="desc2">
+                <small class="text-muted">
+                  Luka bakar derajat 2 melibatkan lapisan epidermis dan dermis,
+                  dengan lepuhan dan nyeri yang lebih intens.
+                </small>
+              </div>
+            </li>
+            <li
+              class="list-group-item list-group-item-action d-flex flex-column gap-2"
+            >
+              <button
+                class="btn btn-link p-0 text-start"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#desc3"
+                aria-expanded="false"
+                aria-controls="desc3"
+              >
+                Luka Bakar Derajat 3
+              </button>
+              <div class="collapse" id="desc3">
+                <small class="text-muted">
+                  Luka bakar derajat 3 merusak seluruh lapisan kulit,
+                  menyebabkan jaringan mati dan memerlukan penanganan medis
+                  serius.
+                </small>
+              </div>
+            </li>
+            <li
+              class="list-group-item list-group-item-action d-flex flex-column gap-2"
+            >
+              <button
+                class="btn btn-link p-0 text-start"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#desc4"
+                aria-expanded="false"
+                aria-controls="desc4"
+              >
+                Luka Bakar Derajat 4
+              </button>
+              <div class="collapse" id="desc4">
+                <small class="text-muted">
+                  Luka bakar derajat 4 mencapai otot dan tulang, merupakan
+                  kondisi yang sangat serius dan memerlukan perawatan intensif.
+                </small>
+              </div>
+            </li>
+          </ul>
+
+          <a href="/deteksi-luka" class="btn btn-danger mt-3">DETEKSI</a>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="../static/css/bg-container.png"
+            class="img-fluid"
+            alt="Doctors"
+          />
+        </div>
+      </div>
+    </div>
+
+    {% include 'layouts/footer.html' %}
+    <!-- Bootstrap Bundle JS (include Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

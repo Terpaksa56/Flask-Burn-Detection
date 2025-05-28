@@ -1,0 +1,72 @@
+body {
+  background-image: url("static/images/bg.container.png");
+  background-size: cover;
+  background-position: center;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full height layar */
+}
+.navbar-brand img {
+  height: 30px;
+}
+.content-wrapper {
+  display: block; /* hapus flex supaya gak center vertikal */
+  padding: 2rem 0; /* kasih spacing atas bawah */
+  flex: 1;
+}
+.detected-img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+#loader {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+}
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+.list-group-item .btn-link {
+  text-decoration: none;
+}
+
+.btn-link {
+  text-decoration: none;
+  position: relative;
+  padding-right: 20px; /* space buat arrow */
+  color:black;
+}
+
+.btn-link::after {
+  content: '▼'; /* arrow default: up */
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+
+
+.btn-custom-red {
+  background-color: #FF0000; 
+  border-color: #FF0000;
+  color: #FFFFFF;
+}
+.btn-custom-red:hover {
+  background-color: #CC0000; 
+  border-color: #CC0000;
+}
