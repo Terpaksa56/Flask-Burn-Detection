@@ -47,6 +47,8 @@ def ajax_detect():
         '--weights', 'best_old.pt',
         '--source', filepath,
         '--save-txt',
+        '--imgsz', '320',
+        '--half',
         '--save-conf'
     ], capture_output=True, text=True)
 
